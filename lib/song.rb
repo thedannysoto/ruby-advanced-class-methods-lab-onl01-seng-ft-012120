@@ -49,6 +49,7 @@ class Song
     song = self.new
     song.name = name.split(/\s*[-.]\s*/)[1]
     song.artist_name = name.split(/\s*[-.]\s*/)[0]
+    song
   end 
   
   
